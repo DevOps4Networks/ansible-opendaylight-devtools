@@ -1,0 +1,4 @@
+---
+- include: stop_odl.yml
+- include: cleanup_karaf.yml
+- include: start_odl.yml

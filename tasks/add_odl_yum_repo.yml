@@ -1,0 +1,7 @@
+- name: Add ODL yum repo
+  copy:
+    src=opendaylight-3-candidate.repo
+    dest=/etc/yum.repos.d/
+    owner=root
+    group=root
+    mode=0644
