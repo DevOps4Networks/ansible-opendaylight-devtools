@@ -1,5 +1,6 @@
 ---
 - include: setup_devvm.yml
+- include: install_jdk8.yml
 - include: install_odl.yml
 - include: configure_karaf_features.yml
 - include: configure_nb_rest_port.yml
