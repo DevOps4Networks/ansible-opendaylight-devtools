@@ -6,6 +6,3 @@
 - include: configure_nb_rest_port.yml
 - include: open_nb_rest_port.yml
 - include: start_odl.yml
-
-roles:
-  - { role: smola.java }
