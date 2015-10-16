@@ -1,6 +1,9 @@
 ---
 # Default variables for the OpenDaylight role. Override as needed.
 
+java_packages:
+  - openjdk-8-jdk
+
 # The point of defining default_* and extra_* lists (like default_features
 # and extra_features), instead of using one common list (like a features
 # list, with the two aggregated) is to simplify the user experience.
