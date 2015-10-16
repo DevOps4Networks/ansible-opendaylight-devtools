@@ -1,8 +1,11 @@
 ---
 - include: add_odldev_user.yml
-- include: install_jdk8.yml
+#- include: install_jdk8.yml
 - include: install_odl.yml
 - include: configure_karaf_features.yml
 - include: configure_nb_rest_port.yml
 - include: open_nb_rest_port.yml
 - include: start_odl.yml
+
+roles:
+  - { role: smola.java }
